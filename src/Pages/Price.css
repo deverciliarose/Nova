@@ -1,0 +1,93 @@
+.price-section{
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    overflow: hidden;
+}
+.imagem-price{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    margin-top: 100px;
+}
+.imagem-price img{
+    width:650px;
+    position:relative;
+    z-index:2;
+    animation:floating 4s ease-in-out infinite;
+}
+.price-info{
+    margin-top: 100px;
+    gap: 0;
+
+}
+.price-subtitle{
+    color:#00FFFF;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    font-size:15px;
+}
+.price-title{
+    margin-top:20px;
+    margin-bottom: 15px;
+    font-size:55px;
+    color:white;
+    font-weight:400;
+}
+.price{
+    margin-top:10px;
+    font-size:90px;
+    color:#00FFFF;
+    font-weight:300;
+}
+.installments{
+    margin-top:15px;
+    color: white;
+    font-size:20px;
+}
+.benefits{
+    margin-top:20px;
+    margin-left: 20px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    color:white;
+    font-size:18px;
+}
+.benefits div{
+    padding:18px 28px;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:14px;
+    background:#1c1c1c;
+    text-align: center;
+}
+.price-section button{
+    margin-top:10px;
+    margin: 40px;
+    width:260px;
+    height:40px;
+    border:none;
+    border-radius:50px;
+    background:#00FFFF;
+    color:#151515;
+    font-size:22px;
+    cursor:pointer;
+    transition:.4s;
+}
+.price-section button:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 35px rgba(0,255,255,.35);
+}
+@media(max-width:768px){
+   .price-section{
+    display: flex;
+    flex-direction: column;
+   }
+   .imagem-price{
+    width: 300px;
+    margin-bottom: 30px;
+   } 
+}

@@ -1,0 +1,98 @@
+
+.footer{
+    border-top:1px solid rgba(255,255,255,.08);
+     padding: 40px 8% 30px;
+   
+}
+.footer-brand{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-footer img{
+    width: 30px;
+    margin-left: 15px;
+    margin-bottom: -10px;
+}
+.logo-footer h1{
+    font-size: 25px;
+    color: #00FFFF;
+    font-style: italic;
+}
+.logo-footer span{
+    color: #FFFFFF;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.social a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #00FFFF;
+    cursor: pointer;
+}
+.social a:hover{
+    background: #00FFFF;
+    color: #FFFFFF;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.links h3{
+    font-size: 20px;
+}
+.links a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-contact h3{
+    text-align: center;
+    font-size: 20px;
+}
+.footer-contact p{
+    font-size: 18px;
+    text-align: center;
+}
+.footer-contact button{
+    padding: 6px 8px;
+    background: none;
+    border: 1px solid #00FFFF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer-contact button:hover{
+    background: #00FFFF;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+.footer-bottom p{
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: #00FFFF;
+}

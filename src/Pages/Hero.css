@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap');
+.hero{
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:
+    radial-gradient(circle at 70% 35%,
+    rgba(0,255,255,.08),
+    transparent 35%),
+    radial-gradient(circle at 50% 50%,
+    rgba(255,255,255,.03),
+    transparent 60%),
+    #151515;  
+    overflow: hidden;
+    
+}
+.hero-container{
+    width: 100%;
+    min-height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+.hero-sloga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 500px;
+    margin-left: 0;
+}
+.hero-sloga ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-size: 20px;
+}
+.hero-sloga h2{
+    font-size: 64px;
+    color: #00FFFF;
+    font-family: Georgia, serif;
+    font-weight: 400;
+}
+.hero-sloga p{
+    font-size: 20px;
+}
+.btn-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 18px 12px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: 23px;
+    background-color: #00FFFF;
+    color: #000080 ;
+    gap: 12px;
+    cursor: pointer;
+}
+.smartwatch-container{
+    display: flex;
+}
+.smartwatch-container::before{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    filter: blur(30px);
+    z-index: 0;
+    
+}
+.smartwatch-container img{
+    position: relative;
+    width: 650px;
+    height: auto;
+    margin-top: 70px;
+    z-index: 1;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-right: 200px;
+    border-left: 1px solid #00FFFF;
+    height: 150px;
+}
+.btn-container button{
+    margin-left: 5px;
+    padding: 12px;
+    font-size: 18px;
+    color: #00FFFF;
+    background: none;
+    border: none;
+}
+.detalhes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.componentes{
+    width: 100%;
+    max-width: 1630px;
+    display: flex;
+    gap: 40px;
+}
+.componente{
+    position: relative;
+    display: flex;
+    width: 320px;
+    height: 80px;
+    background-color: #1E2126;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.tooltip{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    width: 220px;
+    padding: 12px 15px;
+    background: #1E2126;
+    color: white;
+    border: 1px solid #00FFFF;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    z-index: 20;
+}
+.componente:hover .tooltip{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+.tooltip::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 8px solid transparent;
+    border-top-color: #00FFFF;
+}
+.componente h2{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: #00FFFF;
+}
+.componente img{
+    width: 80px;
+} 
+
+
+@media(max-width:768px){
+    .hero {
+        width: 100vw;
+        min-height: 100vh;
+        height: auto;
+        overflow: hidden;
+    }
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .smartwatch-container{
+        order: -1;
+    }
+}
