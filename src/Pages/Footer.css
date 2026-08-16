@@ -55,6 +55,10 @@
     align-items: center;
     gap: 10px;
 }
+.links-container{
+    display: flex;
+    gap: 40px;
+}
 .links h3{
     font-size: 20px;
 }
@@ -105,6 +109,17 @@
     .social a{
         font-size: 18px;
     }
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-links{
+        display: flex;
+    }
+    .links-container{
+        display: flex;
+        flex-direction: column;
+    }
     .links h3{
         font-size: 18px;
     }
@@ -116,5 +131,10 @@
     }
     .footer-contact p{
         font-size: 15px;
+    }
+    .footer-contact button{
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

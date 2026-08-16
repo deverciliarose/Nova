@@ -35,6 +35,7 @@ function Footer(){
                     </div>
                 </div>
                 <div className="footer-links">
+                    <div className="links-container">
                     <div className="links">
                     <h3>Produtos</h3>
                     <a href="#">Recursos</a>
@@ -50,7 +51,7 @@ function Footer(){
                         <a href="#">Projetos</a>
                         <a href="#">Contato</a>
                     </div>
-
+                    </div>
                      <div className="footer-contact">
                     <h3>Contato</h3>
                     <p>
