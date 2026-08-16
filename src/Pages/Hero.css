@@ -176,8 +176,51 @@
     .hero-container{
         display: flex;
         flex-direction: column;
+        margin-left: 10%;
+         background:
+    radial-gradient(circle at 70% 35%,
+    rgba(0,255,255,.08),
+    transparent 35%),
+    radial-gradient(circle at 50% 50%,
+    rgba(255,255,255,.03),
+    transparent 60%),
+    #151515;  
+    }
+    .hero-sloga ul{
+        font-size: 18px;
+    }
+    .hero-sloga h2{
+        font-size: 30px;
+    }
+    .hero-sloga p{
+        font-size: 18px;
+    }
+    .btn-hero{
+        padding: 10px 6px;
+        font-size: 18px;
     }
     .smartwatch-container{
         order: -1;
+    }
+    .smartwatch-container img{
+        width: 350px;
+        margin-left: 10%;
+    }
+    .btn-container{
+        margin-top: 98px;
+    }
+    .componentes{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .componente{
+        width: 200px;
+        height: 40px;
+    }
+    .componente h2{
+        font-size: 18px;
+    }
+    .componente img{
+        width: 40px;
     }
 }

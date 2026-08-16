@@ -86,8 +86,32 @@
     display: flex;
     flex-direction: column;
    }
-   .imagem-price{
-    width: 300px;
+   .imagem-price img{
+    width: 450px;
     margin-bottom: 30px;
-   } 
+   }
+   .price-title{
+    margin-top: -80px;
+    font-size: 30px;
+   }
+   .price-subtitle{
+     font-size: 12px;
+   }
+   .price{
+    font-size: 60px;
+   }
+   .installments{
+    font-size: 18px;
+   }
+   .benefits div{
+    padding: 10px 20px;
+    font-size: 15px;
+   }
+   .price-section button{
+    width: 200px;
+    font-size: 18px;
+   }
+   .price-section button:hover{
+     box-shadow:0 0 35px rgba(0,255,255,.35);
+   }
 }

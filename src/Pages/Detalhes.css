@@ -52,7 +52,11 @@
    .watch{
     width: 400px;
    }
+   .component img{
+    width: 200px;
+   }
     .component-descrição{
-        top: 90%;
+        top: 80%;
+        left: 25%;
     }
 }

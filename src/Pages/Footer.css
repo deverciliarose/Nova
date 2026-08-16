@@ -1,7 +1,8 @@
 
 .footer{
+    width: 100%;
     border-top:1px solid rgba(255,255,255,.08);
-     padding: 40px 8% 30px;
+    padding: 40px 8% 30px;
    
 }
 .footer-brand{
@@ -95,4 +96,25 @@
     font-size: 18px;
     font-style: italic;
     color: #00FFFF;
+}
+
+@media (max-width: 768px){
+    .logo-footer h1{
+        font-size: 18px;
+    }
+    .social a{
+        font-size: 18px;
+    }
+    .links h3{
+        font-size: 18px;
+    }
+    .links a{
+        font-size: 15px;
+    }
+    .footer-contact h3{
+        font-size: 18px;
+    }
+    .footer-contact p{
+        font-size: 15px;
+    }
 }

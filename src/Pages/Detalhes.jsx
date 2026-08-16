@@ -13,7 +13,9 @@ function Detalhes(){
     const detalhesRef = useRef(null);
     useLayoutEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
+        const mm = gsap.matchMedia();
 
+        mm.add("(min-width: 769px)", () =>{
         const tl = gsap.timeline({
             scrollTrigger:{
                 trigger: detalhesRef.current,
@@ -49,7 +51,48 @@ function Detalhes(){
             opacity:1,
             scale:1,
             duration:1
-        })
+        });
+        });
+        mm.add("(max-width:768px)", () =>{
+            const tl = gsap.timeline({
+                scrollTrigger:{
+                    trigger: detalhesRef.current,
+                    start: "top center",
+                    end: "+=400",
+                    scrub:1
+                }
+            });
+            tl.to(".tela",{
+                x:-30,
+                y:-80,
+                opacity:1,
+                scale:0.7,
+                duration:1
+            })
+            tl.to(".pulseira",{
+                x:250,
+                y:-20,
+                opacity:1,
+                scale:0.7,
+                duration:1
+            }, "<")
+            tl.to(".coroa",{
+                x:-30,
+                y:100,
+                opacity:1,
+                scale:0.7,
+                duration:1
+            }, "<")
+            tl.to(".sensores", {
+                x:200,
+                y:200,
+                opacity:1,
+                scale:0.7,
+                duration:1
+            })
+        });
+
+        return () => mm.revert();
 
     }, [])
     return(

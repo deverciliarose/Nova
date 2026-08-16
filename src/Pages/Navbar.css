@@ -27,7 +27,6 @@ nav ul {
 .logo {
     display: flex;
     flex-direction: column;
-    margin-left: 0;
     gap: 10px;
 }
 
@@ -84,6 +83,7 @@ nav ul li:hover {
     .menu-toggle{
         display: block;
         z-index: 2000;
+        margin-right: 20px;
     }
     .menu{
         display: none;
