@@ -51,20 +51,20 @@ function Hero(){
                       <div className="btn-container">
                         <button onClick={() =>
                              setImagemSelecionada(smartwatch)
-                            }
+                        }
                              >
                             1
                         </button>
                     
-                        <button onClick={() => 
+                        <button onClick={() =>
                             setImagemSelecionada(smartwatchFundo)
-                            }
+                        }
                             >
                             2
                         </button>
-                        <button onClick={() => 
+                        <button onClick={() =>
                             setImagemSelecionada(smartwatchEsquerdo)
-                           }
+                        }
                             >
                             3
                         </button>

@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function Navbar(){
     
-    const [menuAberto, setMenuAberto] = useState(false)
+    const [menuAberto, setMenuAberto] = useState(false);
     const rolarPara = (id) => {
         document.getElementById(id)?.scrollIntoView({
             behavior: "smooth"
@@ -19,7 +19,7 @@ function Navbar(){
                     <img src={imagemLogo} alt="logo" className="imagem-logo" />
                 <h1>NO<span>VA</span></h1>
                 </div>
-                <ul className="menu">
+                <ul className={`menu ${menuAberto ? "aberto" : ""}`}>
                     <li onClick={() =>
                         {rolarPara("hero");
                         setMenuAberto(false)}}>
