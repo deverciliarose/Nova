@@ -38,16 +38,16 @@
     justify-content: center;
     gap: 30px;
     list-style: none;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .hero-sloga h2{
-    font-size: 64px;
+    font-size: 4rem;
     color: #00FFFF;
     font-family: Georgia, serif;
     font-weight: 400;
 }
 .hero-sloga p{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .btn-hero{
     display: flex;
@@ -78,7 +78,7 @@
 }
 .smartwatch-container img{
     position: relative;
-    width: 650px;
+    max-width: 650px;
     height: auto;
     margin-top: 70px;
     z-index: 1;
@@ -177,7 +177,7 @@
     .hero-container{
         display: flex;
         flex-direction: column;
-        margin-left: 10%;
+        
          background:
     radial-gradient(circle at 70% 35%,
     rgba(0,255,255,.08),
@@ -204,7 +204,7 @@
         order: -1;
     }
     .smartwatch-container img{
-        width: 350px;
+        max-width: 350px;
         margin-left: 10%;
     }
     .btn-container{
@@ -213,6 +213,7 @@
     .componentes{
         flex-wrap: wrap;
         justify-content: center;
+        margin-bottom: 60px;
     }
     .componente{
         width: 200px;
