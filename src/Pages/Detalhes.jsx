@@ -64,7 +64,7 @@ function Detalhes(){
             });
             tl.to(".tela",{
                 x:-30,
-                y:-80,
+                y:-250,
                 opacity:1,
                 scale:0.7,
                 duration:1
@@ -85,7 +85,7 @@ function Detalhes(){
             }, "<")
             tl.to(".sensores", {
                 x:200,
-                y:200,
+                y:150,
                 opacity:1,
                 scale:0.7,
                 duration:1

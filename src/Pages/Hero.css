@@ -189,23 +189,30 @@
     }
     .hero-sloga ul{
         font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .hero-sloga h2{
         font-size: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .hero-sloga p{
         font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .btn-hero{
         padding: 10px 6px;
         font-size: 18px;
+        margin-bottom: 20px;
     }
     .smartwatch-container{
         order: -1;
     }
     .smartwatch-container img{
         max-width: 350px;
-        margin-left: 10%;
+        margin-left: 100px;
     }
     .btn-container{
         margin-top: 98px;

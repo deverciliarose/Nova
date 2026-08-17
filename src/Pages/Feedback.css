@@ -50,7 +50,7 @@
     margin-bottom: 10px;
     color: #00FFFF;
     font-style: italic;
-    margin-top: 15px;
+    margin-top: 0.94rem;
 }
 .modal label{
     color: white;
@@ -134,4 +134,14 @@
 }
 .estrelas svg.ativa{
     color: #FFD700;
+}
+@media(max-width:768px){
+   .feedback-header h2{
+    font-size: 1.25rem ;
+   }
+   .feedback-header button{
+     width: 12.5rem;
+     height: 2.5rem;
+     font-family:0.94rem;
+   }
 }

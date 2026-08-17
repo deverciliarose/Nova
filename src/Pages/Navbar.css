@@ -82,10 +82,16 @@ nav ul li:hover {
 }
 
 @media (max-width: 768px){
+    .icons{
+        font-size: 22px;
+    }
     .menu-toggle{
         display: block;
         z-index: 2000;
         margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 5px;
+        font-size: 22px;
     }
     .menu{
         display: none;
