@@ -142,6 +142,6 @@
    .feedback-header button{
      width: 12.5rem;
      height: 2.5rem;
-     font-family:0.94rem;
+     font-size: 0.94rem;
    }
 }

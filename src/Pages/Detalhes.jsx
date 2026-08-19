@@ -64,7 +64,7 @@ function Detalhes(){
             });
             tl.to(".tela",{
                 x:-30,
-                y:-250,
+                y:-240,
                 opacity:1,
                 scale:0.7,
                 duration:1

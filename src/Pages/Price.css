@@ -119,6 +119,7 @@
     .imagem-price img{
         width: 500px;
         transform: translateY(-100px);
+        margin-right: 60px;
     }
     .price-info{
         gap: 30px;
