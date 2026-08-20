@@ -58,21 +58,29 @@
    }
     .component-descrição{
         top: 80%;
-        margin-right: 25px;
-        left: 3%;
-        
+        margin-right: 30px;
+        left: 4%;   
+    }
+    .component-descrição span{
+        font-size: 13px;
+    }
+    .component-descrição h2{
+        font-size: 18px;
+    }
+    .component-descrição p{
+        font-size: 13px;
     }
 }
 @media(min-width: 769px) and (max-width: 1300px){
     .component-descrição{
         margin-top: 300px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     .component-descrição span{
         font-size: 12px;
     }
     .component-descrição p{
         font-size: 15px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 }
