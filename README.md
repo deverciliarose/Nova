@@ -14,13 +14,14 @@ O projeto foi criado para apresentar um produto de forma visual e interativa, co
 - Seção de recursos e funcionalidades
 - Seção de preço e benefícios
 - Área de depoimentos
+
 - Modal de avaliação
 - Footer com links e redes sociais
 - Layout responsivo para mobile, tablet e desktop
 
 ## Preview
 
-![NOVA Smartwatch](src/img/Preview.png)
+<img width="1830" height="915" alt="Preview" src="https://github.com/user-attachments/assets/fd3aa82f-076c-4ab1-ab97-7374b0f52132" />
 
 ## Demonstração
 
